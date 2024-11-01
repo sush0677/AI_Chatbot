@@ -3,7 +3,6 @@ from langchain_ollama.chat_models import ChatOllama
 
 # Set up the Streamlit app
 st.title("🧠 Interactive Chat Application with Ollama and Langchain!")
-st.write("For more info, visit [KGP Talkie](https://www.youtube.com/kgptalkie)")
 
 # Function to generate a response from the model
 def generate_response(input_text):

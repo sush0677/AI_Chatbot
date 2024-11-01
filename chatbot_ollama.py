@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_ollama import ChatOllama
+from langchain_ollama.chat_models import ChatOllama
 
 # pip install -qU langchain-ollama
 # pip install langchain

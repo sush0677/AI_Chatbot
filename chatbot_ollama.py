@@ -7,7 +7,7 @@ st.title("🧠 Interactive Chat Application with Ollama and Langchain!")
 # Function to generate a response from the model
 def generate_response(input_text):
     try:
-        model = ChatOllama(model="llama3.2:1b", base_url="http://127.0.0.1:11434/")
+        model = ChatOllama(model="llama3.2:1b", base_url="http://localhost:11434/")
         response = model.invoke(input_text)
         return response.content
     except Exception as e:
